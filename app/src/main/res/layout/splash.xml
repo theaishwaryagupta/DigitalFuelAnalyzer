@@ -4,14 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".Splash">
-
 
     <ImageView
         android:id="@+id/dfaicon"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@android:color/background_dark"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:foregroundGravity="center"
@@ -27,7 +26,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="24dp"
         android:text="@string/app_name"
-        android:textColor="#101010"
+        android:textColor="#f00000"
         android:textSize="30sp"
         android:textStyle="bold" />
 

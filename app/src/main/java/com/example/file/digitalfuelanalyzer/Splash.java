@@ -1,12 +1,15 @@
 package com.example.file.digitalfuelanalyzer;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.app.AppCompatDelegate;
-
-import static android.support.v7.app.AppCompatDelegate.MODE_NIGHT_YES;
+import android.widget.Toast;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 public class Splash extends AppCompatActivity {
 
@@ -14,11 +17,48 @@ public class Splash extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash);
-        AppCompatDelegate.setDefaultNightMode(MODE_NIGHT_YES);
+
+      // startActivity(new Intent(Splash.this,Insertdatatostub.class));
+       //finish();
+
+    /*   SharedPreferences prefs = getSharedPreferences("codewarriors", MODE_PRIVATE);
+        String restoredText = prefs.getString("userid", null);
+        String adminid=prefs.getString("adminid",null);
+        if (restoredText != null) {
+
+            DatabaseReference rootRef = FirebaseDatabase.getInstance().getReference("UserState/");
+            rootRef.child(restoredText).addListenerForSingleValueEvent(new ValueEventListener() {
+                @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {
+                    if(dataSnapshot.exists()) {
+                        String s = dataSnapshot.getValue().toString();
+                        openactivity(s);
+                    }
+                    else
+                    {
+                        Toast.makeText(Splash.this,"Unalbe to fetch user", Toast.LENGTH_LONG).show();
+                      //  Toasty.error(Splash.this,"Unalbe to fetch user", Toast.LENGTH_LONG,true).show();
+                    }
+                }
+
+                @Override
+                public void onCancelled(DatabaseError databaseError) {
+                   Toast.makeText(Splash.this,"Check Your Internet Connection", Toast.LENGTH_LONG).show();
+                   //Toasty.warning(Splash.this,"Check Your Internet", Toast.LENGTH_LONG,true).show();
+
+                }
+            });
+        }*/
+       /* else if(adminid!=null)
+        {
+            Intent intent = new Intent(this,ListAllConstituency.class);
+            startActivity(intent);
+        }*/
+        //else {
             new Thread() {
                 public void run() {
                     int waited = 0;
-                    while (waited < 2500) {
+                    while (waited < 1500) {
                         try {
                             Thread.sleep(100);
                             waited += 100;
@@ -28,8 +68,23 @@ public class Splash extends AppCompatActivity {
                         }
                     }
                     finish();
+
                     startActivity(new Intent(Splash.this, LoginActivity.class));
                 }
             }.start();
         }
+ //   }
+
+
+    /*void openactivity(String s)
+    {
+        if(s.equals("0"))
+        {
+        //    startActivity(new Intent(Splash.this,Aadharverify.class));
+        }
+        else
+        {
+            //startActivity(new Intent(Splash.this,StatusActivity.class));
+        }
+    }*/
 }

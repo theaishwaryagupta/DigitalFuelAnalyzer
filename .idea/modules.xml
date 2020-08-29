@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DigitalFuelAnalyzer.iml" filepath="$PROJECT_DIR$/DigitalFuelAnalyzer.iml" group="DigitalFuelAnalyzer" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="DigitalFuelAnalyzer/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DigitalFuelAnalyzer.iml" filepath="$PROJECT_DIR$/.idea/modules/DigitalFuelAnalyzer.iml" group="DigitalFuelAnalyzer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="DigitalFuelAnalyzer/app" />
     </modules>
   </component>
 </project>

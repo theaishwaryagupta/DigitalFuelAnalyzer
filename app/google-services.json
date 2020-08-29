@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "577354093037",
+    "firebase_url": "https://digitalfuelanalyzer-7ef59.firebaseio.com",
+    "project_id": "digitalfuelanalyzer-7ef59",
+    "storage_bucket": "digitalfuelanalyzer-7ef59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577354093037:android:9677e5c52663e19e",
+        "android_client_info": {
+          "package_name": "com.example.file.digitalfuelanalyzer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577354093037-ktg0782uhbl4ebbthp8986lkdun8hobb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.file.digitalfuelanalyzer",
+            "certificate_hash": "fab1e7d44d99a5d0d670d3b6aba6febe33b250d0"
+          }
+        },
+        {
+          "client_id": "577354093037-ru29vhgqlupv7u374rk3kpttpqkep8be.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn9SDl8JI8qXZARMZ7jW6pV1Edj0iH2nU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577354093037-ru29vhgqlupv7u374rk3kpttpqkep8be.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

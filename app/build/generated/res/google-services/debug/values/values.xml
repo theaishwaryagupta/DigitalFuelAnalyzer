@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">577354093037-ru29vhgqlupv7u374rk3kpttpqkep8be.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://digitalfuelanalyzer-7ef59.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">577354093037</string>
+    <string name="google_api_key" translatable="false">AIzaSyBn9SDl8JI8qXZARMZ7jW6pV1Edj0iH2nU</string>
+    <string name="google_app_id" translatable="false">1:577354093037:android:9677e5c52663e19e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBn9SDl8JI8qXZARMZ7jW6pV1Edj0iH2nU</string>
+    <string name="google_storage_bucket" translatable="false">digitalfuelanalyzer-7ef59.appspot.com</string>
+    <string name="project_id" translatable="false">digitalfuelanalyzer-7ef59</string>
+</resources>

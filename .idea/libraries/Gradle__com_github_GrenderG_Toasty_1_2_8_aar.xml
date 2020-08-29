@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.GrenderG:Toasty:1.2.8@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2ab4cba7cbac11aab326a94618b24ad2/Toasty-1.2.8/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2ab4cba7cbac11aab326a94618b24ad2/Toasty-1.2.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2ab4cba7cbac11aab326a94618b24ad2/Toasty-1.2.8/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.GrenderG/Toasty/1.2.8/e24cf845f6ecfba2f0a8ab2093e37490e27485a7/Toasty-1.2.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
